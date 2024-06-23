@@ -40,7 +40,7 @@ module.exports = {
     port: 9000,
     hot: true, // Включение горячей замены модулей
     open: true, // Автоматическое открытие браузера
-    watchFiles: ["src/**/*"],
+    watchFiles: ["src/**/*", "index.html"],
   },
   mode: "development", // Режим разработки
 };

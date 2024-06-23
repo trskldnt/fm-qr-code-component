@@ -34,8 +34,10 @@ body {
 }
 
 .qr-card-image {
+    border-radius: 10px;
     width: 288px;
-    border-radius: 20px;
+    height: 288px;
+    background: var(--blue);
 }
 
 .qr-card-title {
@@ -43,6 +45,7 @@ body {
     font-size: 22px;
     text-align: center;
     color: var(--dark-navy);
+    margin: 24px 0 16px 0;
 }
 
 .qr-card-content {
