@@ -12,25 +12,29 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: #d5e1ef;
+    background-color: #F2F2F2;
     margin: 0;
 }
 
-.container {
+.wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #d5e1ef;
 }
 
 .qr-card {
     border-radius: 20px;
     width: 320px;
-    height: 497px;
     padding: 16px 16px 40px 16px;
     box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
     background: var(--white);
     box-sizing: border-box;
+    margin-top: auto;
 }
 
 .qr-card-image {
@@ -55,4 +59,10 @@ body {
     text-align: center;
     color: var(--grey);
     margin: 0 16px;
+}
+
+@media (max-width: 1440px) {
+    .wrapper {
+        width: 100%;
+    }
 }
